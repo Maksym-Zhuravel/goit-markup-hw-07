@@ -1,16 +1,35 @@
 @import './base/common';
 @import './base/reset';
 @import './utils/vars';
-
-
 @import './components/container';
+
+        // Animation
+        
+ @import './utils/animation';
+
+         // Header
+
 @import './components/header';
 @import './components/logo';
-@import './components/footer-logo';
+       
+         //  Main
+
 @import './components/contacts';
 @import './components/hero';
 @import './components/features';
 @import './components/activity';
 @import './components/team';
 @import './components/client';
+
+        //  Footer
+
 @import './components/footer';
+@import './components/footer-logo';
+@import './components/footer-social-links';
+@import './components/footer-address';
+@import './components/footer-form';
+
+        // Modal-window
+
+@import './components/backdrop';
+@import './components/modal-window';
