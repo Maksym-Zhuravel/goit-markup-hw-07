@@ -18,20 +18,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css">
   </head>
 
   <body>
     <!--Header-->
     <header class="header container">
       <a href="index.html" class="logo"><span class="logo-span">Web</span>Studio</a>
-      <nav class="main-nav">
-        <ul class="header-nav marker">
-          <li class="header-list"><a href="./index.html" class="header-link">Студія</a></li>
-          <li class="header-list">
-            <a href="./portfolio.html" class="header-link current">Портфоліо</a>
-          </li>
-          <li class="header-list"><a href="" class="header-link">Контакти</a></li>
+      <nav class="header-nav">
+        <ul class="header-list marker">
+          <li class="header-item"><a href="./index.html" class="header-link">Студія</a></li>
+          <li class="header-item"><a href="./portfolio.html" class="header-link current">Портфоліо</a></li>
+          <li class="header-item"><a href="" class="header-link">Контакти</a></li>
         </ul>
       </nav>
       <div class="header-address">
@@ -175,68 +173,71 @@
         </ul>
       </section>
     </main>
+    
     <!--Footer-->
+    
     <footer class="footer">
-      <div class="footer-main-container container">
-        <div class="footer-address-container">
+      <div class="container">
+        <div class="address">
           <a href="index.html" class="footer-logo"><span class="logo-span">Web</span>Studio</a>
 
           <!--Contacts-->
           <address class="address-title">
-            <ul class="address marker">
-              <li class="address-list">
+            <ul class="address-list marker">
+              <li class="address-item">
                 <a
                   href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                   rel="noopener noreferrer nofollow"
                   class="address-map"
+                  target="_blank"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="address-list">
+              <li class="address-item">
                 <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
               </li>
-              <li class="address-list">
+              <li class="address-item">
                 <a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="footer-soc-container">
-          <h3 class="footer-soc-title">Приєднуйтесь</h3>
+        <div class="social">
+          <h3 class="social-title">Приєднуйтесь</h3>
 
-          <ul class="footer-soc-list marker">
-            <li class="footer-soc-items">
-              <a href="#" class="footer-soc-link">
-                <svg class="footer-soc-icons" width="20" height="20">
+          <ul class="social-list marker">
+            <li class="social-items">
+              <a href="#" class="social-link">
+                <svg class="social-icons" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-items">
-              <a href="#" class="footer-soc-link">
-                <svg class="footer-soc-icons" width="20" height="20">
+            <li class="social-items">
+              <a href="#" class="social-link">
+                <svg class="social-icons" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-items">
-              <a href="#" class="footer-soc-link">
-                <svg class="footer-soc-icons" width="20" height="20">
+            <li class="social-items">
+              <a href="#" class="social-link">
+                <svg class="social-icons" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-items">
-              <a href="#" class="footer-soc-link">
-                <svg class="footer-soc-icons" width="20" height="20">
+            <li class="social-items">
+              <a href="#" class="social-link">
+                <svg class="social-icons" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <form action="" class="footer-form">
+        <form action="" class="form">
           <label for="sendemail" class="footer-label">Підпишіться на розсилку</label>
           <div class="form-box">
             <input type="text" name="e-mail" id="sendemail" placeholder="E-mail" class="footer-input" />
