@@ -12,20 +12,6 @@ body {
   list-style: none;
 }
 
-.current {
-  color: var(--logo-color);
-}
-.current::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  right: 0;
-  background-color: var(--logo-color);
-  border-radius: 2px;
-}
-
 h1,
 h2,
 h3,
@@ -94,13 +80,13 @@ p {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--font-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   cursor: pointer;
+  color: var(--font-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover, .header-link:focus {
@@ -109,6 +95,20 @@ p {
 }
 .header-nav {
   margin-left: 93px;
+}
+
+.current {
+  color: var(--logo-color);
+}
+.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  right: 0;
+  background-color: var(--logo-color);
+  border-radius: 2px;
 }
 
 .logo {
